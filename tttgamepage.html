@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>ttt peg2</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="tttgamepage.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>Tic Tac Toe</h1>
+    </center>
+    <span id="spansome">
+        <h4 id="player1Lab">Player 1 : </h4>
+        <h4 id="player2Lab">Player 2 : </h4>
+    </span>
+    <center>
+        <button id="buttonbutton"onclick="start()" class="btn btn-primary">Start</button>
+        <div id="playerTurn"></div>
+        <div id="playing_area">
+            <span id="aRow">
+                <button id="a1" onclick="a1()" style="width: 100px; height: 100px; margin: 25px;"></button>
+                <button id="a2" onclick="a2()" style="width: 100px; height: 100px; margin: 25px;"></button>
+                <button id="a3" onclick="a3()" style="width: 100px; height: 100px; margin: 25px;"></button>
+            </span>
+            <hr>
+            <span id="bRow">
+                <button id="b1" onclick="b1()" style="width: 100px; height: 100px; margin: 25px;"></button>
+                <button id="b2" onclick="b2()" style="width: 100px; height: 100px; margin: 25px;"></button>
+                <button id="b3" onclick="b3()" style="width: 100px; height: 100px; margin: 25px;"></button>
+            </span>
+            <hr>
+            <span id="cRow">
+                <button id="c1" onclick="c1()" style="width: 100px; height: 100px; margin: 25px;"></button>
+                <button id="c2" onclick="c2()" style="width: 100px; height: 100px; margin: 25px;"></button>
+                <button id="c3" onclick="c3()" style="width: 100px; height: 100px; margin: 25px;"></button>
+            </span>
+        </div>
+    </center>
+</body>

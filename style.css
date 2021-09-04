@@ -1,0 +1,29 @@
+#playbuttonindexforhtml{
+    width: 250px;
+    margin-top: 50px;
+}
+
+#player1username_input{
+    width:160px;
+}
+#player2username_input{
+    width: 160px;
+}
+
+#player1log_div{
+    background-color: linear-gradient( #ff1cf4 0%,#fff01f 100%);
+    border: 2px solid black;
+    margin: 10px;
+    width : 500px;
+    padding : 10px;
+    border-radius: 20px;
+}
+
+#player2log_div{
+    border: 2px solid black;
+    margin: 10px;
+    width : 500px;
+    padding : 10px;
+    border-radius: 20px;
+}
+
